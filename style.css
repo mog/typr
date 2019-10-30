@@ -1,0 +1,29 @@
+html,body{
+  margin:0;
+  overflow:hidden;
+  background:#1e1e1e;
+}
+
+canvas {
+  position:absolute;
+  top:0;
+  left:0;
+  cursor:none;
+}
+
+@font-face {
+  font-family:'BreakBold';
+  src: url('Break Bold.ttf');
+  src: local('BreakBold'),
+  url('Break Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo{
+  position:absolute;
+  z-index:10;
+  bottom:3vh;
+  right:3vh;
+  width:13vw;
+}
