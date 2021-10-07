@@ -20,6 +20,15 @@ canvas {
   font-style: normal;
 }
 
+@font-face {
+  font-family:'KronaOne';
+  src: url('KronaOne-Regular.ttf');
+  src: local('KronaOne'),
+  url('KronaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .logo{
   position:absolute;
   z-index:10;
