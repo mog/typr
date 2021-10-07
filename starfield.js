@@ -62,7 +62,10 @@ var Starfield = function() {
 	var render = () => {
 		_ctx.fillStyle = '#1e1e1e';
 		_ctx.globalAlpha = .4;
-		_ctx.fillRect(0, 0, _width, _height);
+
+		//_ctx.fillRect(0, 0, _width, _height);
+		_ctx.drawImage(staticBackground, 0, 0, _width, _height);
+
 		//fillRect(0, 0, _width, _height);
 		moveParticle(Date.now() - frameDelta);
 		frameDelta = Date.now();
